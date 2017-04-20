@@ -1,0 +1,5 @@
+====================================
+sqlite_export.py
+====================================
+
+The script exports an SQLite3 Mediawiki database in a directory with one file per page.
