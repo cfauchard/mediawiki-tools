@@ -43,3 +43,5 @@ except sqlite3.OperationalError as error:
     exit(2)
 except FileNotFoundError as error:
     print(error.strerror, error.filename)
+except PermissionError as error:
+    print(error.strerror, error.filename)
