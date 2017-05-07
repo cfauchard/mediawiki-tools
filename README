@@ -4,6 +4,8 @@ sqlite_export.py
 
 The script exports an SQLite3 Mediawiki database in a directory with one file per page.
 
+Wikitext files are ".wikitext" suffixed
+
 Encoding error:
 if you have an UTF-8 encoding error, set the following environment variable:
 LANG=en_US.UTF-8;export LANG
